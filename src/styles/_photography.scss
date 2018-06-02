@@ -1,0 +1,31 @@
+#photography {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px;
+    @media only screen and (min-width: $cut) {
+      width: 80%;
+    }
+  }
+
+  .portfolio {
+    margin: 20px auto auto auto;
+    width: 100%;
+  }
+
+  .portfolio--desktop {
+    height: 700px;
+    display:none;
+    @media only screen and (min-width: $cut) {
+        display: inline-block;
+      }
+  }
+
+  .portfolio--mobile {
+    height: 400px;
+    display: inline-block;
+    @media only screen and (min-width: $cut) {
+        display:none;
+      }
+  }
+
+  
