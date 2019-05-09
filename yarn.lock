@@ -3422,6 +3422,9 @@ svgo@^0.7.0:
     mkdirp "~0.5.1"
     sax "~1.2.1"
     whet.extend "~0.9.9"
+    
+tar@^4.4.2:
+  version "4.4.2"
 
 tar-pack@~3.3.0:
   version "3.3.0"
